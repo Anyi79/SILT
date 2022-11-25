@@ -1,13 +1,89 @@
 .maincontainer{
   position: absolute;  
-  width: 1500px;
-  height: 1500px;
-  border: 3px solid;color: black;
+  width: 1440px;
+  height: 5221px;
+  
 }
 .cajaPortada{ 
- width: auto; 
- height: 500px;
+ width: 1440px; 
+ height: 1024px;
   background-color: rgb(204, 230, 230);
   display: flex;
  
+}
+#FotoFondo{
+  width: 1440px; 
+  height: 1024px;
+}
+#FotoLogo{
+  position: absolute;
+width: 108px;
+height: 110px;
+left: 113px;
+top: 52px;
+  
+}
+#NombreLogo{
+  position: absolute;
+width: 126px;
+height: 51px;
+left: 260px;
+top: 59px;
+
+font-family: 'Radio Canada';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+
+color: #E9E9EC;
+}
+
+#Nosotros{
+  position: absolute;
+width: 99px;
+height: 25px;
+left: 846px;
+top: 44px;
+
+font-family: 'Radio Canada';
+font-style: normal;
+font-weight: 700;
+font-size: 20.5px;
+line-height: 25px;
+color: #E9E9EC;
+
+}
+#Servicios{
+  position: absolute;
+  width: 89px;
+  height: 25px;
+  left: 993.98px;
+  top: 44px;
+  
+  font-family: 'Radio Canada';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20.5px;
+  line-height: 25px;
+  /* identical to box height */
+  color: #E9E9EC;
+  
+}
+#Contacto{
+  position: absolute;
+  width: 90px;
+  height: 25px;
+  left: 1116.98px;
+  top: 44px;
+  
+  font-family: 'Radio Canada';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20.5px;
+  line-height: 25px;
+  /* identical to box height */
+  
+  
+  color: #E9E9EC;
 }
