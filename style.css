@@ -408,8 +408,7 @@ p {
   font-weight: 700;
   font-size: 20.5px;
   line-height: 25px;
-  /* identical to box height */
+  /* identical to box height *
 
 
-  color: #E9E9EC;
-}
+  color:#E9E9EC;
