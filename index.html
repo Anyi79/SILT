@@ -7,61 +7,190 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>SILT Proyecto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
 
 <body>
     <div class="maincontainer">
 
-        <div class="cajaPortada">
-            <div class="cajaPortada" id="FotoFondo"><img src="pexels-tom-fisk-1427107.jpg" alt="FotoFondo"></div>
-            <div class="cajaPortada" id="FotoLogo"><img src="1(1).png" alt="Fotologo"></div>
-            <div id="NombreLogo">
-                <h1> SILT</h1>
+        <div class="cajaCarrusel">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/pexels-tom-fisk-3076002.jpg" class="d-block w-100" alt="Imagenprincipal">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/pexels-niklas-jeromin-8193334.jpg" class="d-block w-100" alt="Imagen2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/pexels-pok-rie-5829126.jpg" class="d-block w-100" alt="Imagen3">
+                    </div>
+
+                </div>
+
             </div>
-            <div id="Nosotros">
-                <h2> Nosotros</h2>
-            </div>
-            <div id="Servicios">
-                <h2> Servicios</h2>
-            </div>
-            <div id="Contacto">
-                <h2> Contacto</h2>
+            <div class="cajaPortada">
+                <div class="cajaPortada" id="fotoLogo"><img src="./images/1(1).png" alt="Fotologo"></div>
+                <div id="nombreLogo">
+                    <h1 id="fuente"> SILT</h1>
+                </div>
+                <div id="nosotros">
+                    <h2 id="fuente"> Nosotros</h2>
+                </div>
+                <div id="servicios">
+                    <h2 id="fuente"> Servicios</h2>
+                </div>
+                <div id="contacto">
+                    <h2 id="fuente"> Contacto</h2>
+                </div>
+                <div id="nombreLogo2">
+                    <h1 id="fuente"> SILT</h1>
+                </div>
+                <div id="nombreEmpresa">
+                    <h id="fuente"> SISTEMA DE INFORMACIÓN LOGÍSTICA Y TRANSPORTE</h>
+                </div>
             </div>
         </div>
 
     </div>
 
     <div class="cajaFrase">
-        <div id="Frase"></div>
+        <div id="frase">
+            <p id="fuente">Nuestra filosofía es la
+            <div id="mejoraContinua"> MEJORA CONTINUA </div>
+            </p>
+            <p id="fuente">Nace del orden, el orden trae disciplina, la disciplina trae productividad, la productividad
+                trae excelencia y la excelencia conlleva al éxito, por eso damos soluciones personalizadas y
+                competitivas, diseñando softwares adaptando las herramientas de tu empresa.
+            </p>
+        </div>
         <div id="F6A729"></div>
         <div id="D9D9D9"></div>
     </div>
 
+    <!-- AINHOA -->
     <div class="cajaServicio">
-        <div id="Servicio"></div>
-        <div id="Contacto"></div>
-        <div id="Diagnostico"></div>
-        <div id="Roadmap"></div>
-        <div id="Disponible"></div>
+        <img src="./images/pexels-alexander-isreb-1797428.jpg" alt="Foto fondo almacen" title="almacen">
+        <div id="servicio">
+            <div id="textColor">
+                <h1>Nuestros Servicios</h1>
+            </div>
+            <ul>
+                <h2>
+                    <li>Consultoría tecnológica</li>
+                    <li>Transformación digital</li>
+                    <li>Desarrollo software</li>
+                    <li>Gestión de stock</li>
+                </h2>
+            </ul>
+        </div>
+        <div id="caracteristica">
+            <div id="linea1">
+                <div id="tomaContacto">
+                    <div id="textColor"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                            fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                            <path
+                                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                        </svg></div>
+                    <h3>TOMA DE CONTACTO: Analizamos tu empresa y sus recursos tecnológicos.
+                    </h3>
+                </div>
+                <div id="diagnostico">
+                    <div id="textColor"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                            fill="currentColor" class="bi bi-bar-chart-line-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1V2z" />
+                        </svg></div>
+                    <h3>DIAGNOSTICO:
+                        Fijamos el punto de partida y tus objetivos tecnológicos.
+                    </h3>
+                </div>
+            </div>
+            <div id="linea2">
+                <div id="roadmap">
+                    <div id="textColor"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                            fill="currentColor" class="bi bi-map" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.502.502 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103zM10 1.91l-4-.8v12.98l4 .8V1.91zm1 12.98 4-.8V1.11l-4 .8v12.98zm-6-.8V1.11l-4 .8v12.98l4-.8z" />
+                        </svg></div>
+                    <h3>ROADMAP:
+                        Te entregamos una hoja de ruta en la que verás las soluciones a corto, medio y largo plazo, de
+                        forma
+                        escalonada y calendarizada.
+                    </h3>
+                </div>
+                <div id="disponible">
+                    <div id="textColor"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                            fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+                            <path
+                                d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z" />
+                            <path
+                                d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                        </svg></div>
+                    <h3>SIEMPRE DISPONIBLES:
+                        Podrás consultar en todo momento tu roadmap para saber en qué estado se encuentra cada solución.
+                    </h3>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="cajaEmpresas">
-        <div id="Titulo"></div>
-        <div id="Caja1"></div>
-        <div id="Caja2"></div>
-        <div id="Caja3"></div>
-        <div id="Caja4"></div>
-        <div id="Caja5"></div>
-        <div id="Caja6"></div>
-        <div id="Caja7"></div>
-        <div id="Caja8"></div>
-    </div>
+     <!-- ROSEMARY -->
+    <section class="Empresas" id="caracteristicaEmpresa">
+        <div id="text-color" class="text">Empresas con las que trabajamos</div>
+        <div class="simbol"><img src="./images/transfrise.png">
+            <p>Transportte Frigorifico</p>
+        </div>
+        <div class="simbol"><img src="./images/tisco.png">
+            <p>Transporte Tisco</p>
+        </div>
+        <div class="simbol"><img src="./images/logo-transporteylogistica.png">
+            <p>Flota de vehículos</p>
+        </div>
+        <div class="simbol"><img src="./images/logotsf420.png">
+            <p>Transeufred</p>
+        </div>
+        <div class="simbol"><img src="./images/LOGO-HORIZ-SIN-FONDO.png">
+            <p>Dilufet Transporte Frigorifico</p>
+        </div>
+        <div class="simbol"><img src="./images/garsotrans-sl-logo.png">
+            <p>Agencia de transporte</p>
+        </div>
+        <div class="simbol"><img src="./images/LOGO-PNG-BORDE-BLANCO-2.png">
+            <p>Euro Cavilla</p>
+        </div>
+        <div class="simbol"><img src="./images/fredist.png">
+            <p>Logística en frío y temperatura</p>
+        </div>
+    </section>
+
+    <!--ANGY--
     <div class="cajaEquipo">
-        <div id="Titulo"></div>
-        <div id="Texto"></div>
-        <div id="Recursos"></div>
-    </div>
-
+        <div id="Fotofondo">
+            <img src="./images/fotogrupo1.jpg" alt="fotogrupo">
+        </div>
+        <div id="Titulo">
+            <h1>GRANDES </h1>
+            <h1>PROFESIONALES</h1>
+        </div>
+        <div id="Texto">
+            <p>Hemos construido un gran equipo de profesionales capacitados y motivados para ofrecer soluciones
+                integrales
+                con la máxima calidad.Es la base del éxito del trabajo realizado para el cliente, y del continuo
+                avance
+                de la compañía.</p>
+        </div>
+        <div id="Recursos">
+            <div id="Recursos1"><img src="./images/logoC.png" width="400px" height="380px" alt="LogoC++"></div>
+            <div id="Recursos2"><img src="./images/java.png" width="340px" height="320px" alt="Logojava"></div>
+            <div id="Recursos3"><img src="./images/gams.png" width="340px" height="320px" alt="Logogams"></div>
+            <div id="Recursos4"><img src="./images/python.png" width="380px" height="360px" alt="Logopython"></div>
+            <div id="Recursos5"><img src="./images/Matlab_Logo.png" width="380px" height="360px" alt="Logometalabs">
+            </div>
+        </div>
+    </div> 
+-->
     <div class="cajaContactanos">
         <div id="Direccion"></div>
         <div id="Horario"></div>
@@ -73,7 +202,9 @@
     </div>
 
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
